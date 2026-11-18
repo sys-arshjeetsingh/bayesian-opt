@@ -11,7 +11,7 @@ def main():
     p.add_argument('--output',default='results/supp.json')
     a=p.parse_args()
     configs={'supp_default':DEFAULTS,
-             'supp_bad':dict(DEFAULTS,shared_buffers='16MB',max_wal_size='64MB',wal_buffers='64kB',checkpoint_completion_target='0.1'),
+             'supp_bad':dict(DEFAULTS,shared_buffers='16MB',max_wal_size='160MB',wal_buffers='64kB',checkpoint_completion_target='0.1'),
              'supp_sync_off':dict(DEFAULTS,synchronous_commit='off')}
     rows=[]
     try:

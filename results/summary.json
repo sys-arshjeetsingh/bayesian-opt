@@ -21,5 +21,22 @@
   "max_wal_size": "3143MB",
   "wal_buffers": "11MB",
   "checkpoint_completion_target": "0.7619"
- }
+ },
+ "val_default_mean": 2177.9062652000002,
+ "val_default_sd": 400.1417501943892,
+ "val_bo_mean": 2210.519225,
+ "val_bo_sd": 254.48401022570926,
+ "val_gain_pct": 1.4974455200901238,
+ "val_welch_t": 0.15378150812620633,
+ "val_welch_p": 0.8822582703006165,
+ "supp_default_mean": 2548.8870842,
+ "supp_default_sd": 1008.2839172789987,
+ "supp_bad_mean": 1799.9724758,
+ "supp_bad_sd": 99.4895282626387,
+ "supp_sync_off_mean": 2126.65376,
+ "supp_sync_off_sd": 94.22772503144547,
+ "supp_bad_vs_default_pct": -29.382023748417886,
+ "supp_bad_p": 0.17234469559573412,
+ "supp_sync_off_vs_default_pct": -16.565399339081477,
+ "supp_sync_off_p": 0.403102329279849
 }
