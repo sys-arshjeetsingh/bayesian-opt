@@ -1,0 +1,52 @@
+[
+  {
+    "timestamp_utc": "2026-11-18T20:45:08.560298+00:00",
+    "label": "baseline",
+    "trial": 0,
+    "requested": {
+      "shared_buffers": "128MB",
+      "work_mem": "4MB",
+      "max_wal_size": "1GB",
+      "wal_buffers": "4MB",
+      "checkpoint_completion_target": "0.9"
+    },
+    "actual_settings": {
+      "shared_buffers": [
+        "16384",
+        "8kB",
+        false
+      ],
+      "work_mem": [
+        "4096",
+        "kB",
+        false
+      ],
+      "max_wal_size": [
+        "1024",
+        "MB",
+        false
+      ],
+      "wal_buffers": [
+        "512",
+        "8kB",
+        false
+      ],
+      "checkpoint_completion_target": [
+        "0.9",
+        null,
+        false
+      ],
+      "synchronous_commit": [
+        "on",
+        null,
+        false
+      ]
+    },
+    "tps": 6622.13687,
+    "pgbench_output": "pgbench (18.7)\ntransaction type: <builtin: TPC-B (sort of)>\nscaling factor: 30\nquery mode: simple\nnumber of clients: 8\nnumber of threads: 1\nmaximum number of tries: 1\nduration: 3 s\nnumber of transactions actually processed: 15593\nnumber of failed transactions: 0 (0.000%)\nlatency average = 1.208 ms\ninitial connection time = 658.809 ms\ntps = 6622.136870 (without initial connection time)\n",
+    "duration_s": 3,
+    "warmup_s": 1,
+    "clients": 8,
+    "jobs": 1
+  }
+]

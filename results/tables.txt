@@ -1,0 +1,17 @@
+Spearman correlation (knob vs TPS):
+  shared_buffers                   rho=+0.34  p=0.096
+  work_mem                         rho=+0.36  p=0.078
+  max_wal_size                     rho=+0.49  p=0.013
+  wal_buffers                      rho=-0.16  p=0.451
+  checkpoint_completion_target     rho=+0.06  p=0.762
+
+Best 4 BO trials:
+  trial 11 | sb  1009 | wm   7 | wal  3143 | wbuf  11 | ckpt 0.76 | 5247
+  trial  9 | sb   861 | wm  59 | wal  3191 | wbuf   6 | ckpt 0.61 | 5063
+  trial  8 | sb   440 | wm  56 | wal  3068 | wbuf   1 | ckpt 0.68 | 4901
+  trial  1 | sb   957 | wm  24 | wal  2263 | wbuf   2 | ckpt 0.70 | 4266
+Worst 4 BO trials:
+  trial 18 | sb   563 | wm  32 | wal   294 | wbuf  22 | ckpt 0.55 | 2004
+  trial 21 | sb   281 | wm  10 | wal   308 | wbuf  46 | ckpt 0.83 | 1978
+  trial 20 | sb   426 | wm   5 | wal  1702 | wbuf   4 | ckpt 0.68 | 1976
+  trial 19 | sb   230 | wm   1 | wal   263 | wbuf   4 | ckpt 0.69 | 1958

@@ -1,0 +1,25 @@
+{
+ "default_mean": 4718.9786944,
+ "default_sd": 377.9396882513112,
+ "default_cv_pct": 8.008929743628878,
+ "default_n": 5,
+ "grid_best": 4900.109819,
+ "grid_worst": 3658.872167,
+ "grid_range_pct": 33.92405078250442,
+ "grid_best_vs_default_pct": 3.8383543628825567,
+ "bo_best": 5246.900436,
+ "bo_min": 1958.030745,
+ "bo_median": 2467.132004,
+ "bo_sd": 1150.3132059345132,
+ "bo_trials": 25,
+ "bo_random_mean": 3966.8089766666667,
+ "bo_ei_mean": 2931.151913631579,
+ "bo_best_vs_default_pct": 11.187203329111938,
+ "bo_winner_config": {
+  "shared_buffers": "1009MB",
+  "work_mem": "7MB",
+  "max_wal_size": "3143MB",
+  "wal_buffers": "11MB",
+  "checkpoint_completion_target": "0.7619"
+ }
+}
